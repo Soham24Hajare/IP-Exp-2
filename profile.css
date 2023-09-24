@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, ol, li, table, th, td, fieldset, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Style the button */
+button {
+    text-align: right;
+    margin: 0 10px 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the legend */
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style the profile image */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style headings and paragraphs */
+h2 {
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Style the audio player */
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Style the list of skills */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the links list */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+div{
+    padding: 15px;
+}
+
+fieldset{
+    padding: 20px;
+}
+
+.Soham{
+    padding: 25px;
+}
+.button{
+    padding: 21px;
+}
