@@ -119,3 +119,44 @@ fieldset{
 .button{
     padding: 21px;
 }
+
+/* Style the section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style fieldsets */
+fieldset {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Define a custom font using @font-face */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('custom-font.woff2') format('woff2');
+}
+
+/* Apply the custom font to specific elements */
+h1 {
+    font-family: 'CustomFont', sans-serif;
+}
+/* Style the links list */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Style pseudo-classes (hover) */
+li a:hover {
+    text-decoration: underline;
+}
